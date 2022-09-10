@@ -103,6 +103,12 @@ button{
 
 .b1{
     margin-right: 30px;
+    background-color: #FFFFFF;
+}
+
+.b2{
+  background-color: transparent;
+  color: white;
 }
 
 img{
@@ -113,17 +119,73 @@ img{
 
 span{
     color: white;
-    display: flex;
+    display: block;
     justify-content: center;    
-    font-size: xx-large;
-    
+    font-size: 32px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
 
-    
 }
 
+form{
+  text-align: center;
+  size: 12;
+}
 
+input{
+   margin-top: 30px;
+    height: 50px;
+    border: 0;
 
+}
 
+.botao{
+  margin-left: -50px;
+  border: 0;
+  background-color: #AD2028;
+  padding-top: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  margin-top: 1px;
+}
+
+.endereco{
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  border-radius: 30px;
+}
+
+  .acesso{
+  margin-top: -15px;
+  margin-left: 30px;
+  
+  
+}
+
+.acessoconta{
+  margin-top: 0;
+  width: 400px;
+  font-weight: bold;
+  border-top: 1px solid gray;
+  margin-top: -10px;
+}
+
+div.acesso > input{
+  width: 400px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -20px;
+}
+
+.local{
+  color: rgb(102, 101, 101) ;
+  font-weight: bold;
+}
 
 
 
