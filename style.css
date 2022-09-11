@@ -80,7 +80,7 @@ select {
 
 
 
-section{
+.login{ 
     background-image: url(img/background-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,11 +88,11 @@ section{
 }
 
 button{
-    float: right;
+  float: right;
     border: 0;
     border-radius: 50px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: -30px;
     height: 40px;
     width: 80px;
     font: bold;
@@ -117,7 +117,7 @@ img{
     
 }
 
-span{
+.restaurante{
     color: white;
     display: block;
     justify-content: center;    
@@ -130,9 +130,20 @@ span{
 
 }
 
-form{
+.doordash{
+  font-weight: 600;
+  font-size: x-large;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  margin-top: 10px;
+  
+}
+
+.entrega{
   text-align: center;
   size: 12;
+
 }
 
 input{
@@ -144,14 +155,18 @@ input{
 
 .botao{
   margin-left: -50px;
+  margin-top: px;
   border: 0;
-  background-color: #AD2028;
+  background-color: #05bbf8;
   padding-top: 5px;
-  height: 40px;
+  height: 30px;
   width: 40px;
   border-radius: 100px;
-  margin-top: 1px;
+  filter: invert(100%);
 }
+
+
+
 
 .endereco{
   width: 400px;
@@ -160,9 +175,10 @@ input{
   border-radius: 30px;
 }
 
-  .acesso{
-  margin-top: -15px;
-  margin-left: 30px;
+  a{
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 10px;
   
   
 }
@@ -187,5 +203,25 @@ div.acesso > input{
   font-weight: bold;
 }
 
+nav{
+  display: inline-block;
+  width: 100%;
+}
 
+.button-up{
+  text-align: right;
+}
 
+.info{
+  height: 645px;
+  display: flex;
+  width: 90%;
+  
+
+}
+
+div.parent{
+  height: 100%;
+  width: 30%;
+  text-align: center;
+}
