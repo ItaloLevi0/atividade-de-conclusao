@@ -111,11 +111,11 @@ button{
   color: white;
 }
 
-img{
+/* img{
     height: auto;
     width: 100px;
     
-}
+} */
 
 .restaurante{
     color: white;
@@ -157,12 +157,13 @@ input{
 .botao{
   margin-left: -50px;
   margin-top: 0px;
+  margin-bottom: -14px;
   border: 0;
   background-color: #05bbf8;
   padding-top: 5px;
-  height: 30px;
+  height: 40px;
   width: 40px;
-  border-radius: 50px;
+  border-radius: 30px;
   filter: invert(100%);
 }
 
@@ -216,13 +217,43 @@ div.acesso > input{
 .info{
   height: 645px;
   display: flex;
-  justify-content: space-around;
-  
-
-}
-
-div.parent{
+  place-items: center; 
+  vertical-align: middle;
+  justify-items: space-evenly;
   text-align: center;
+  align-content: center;
+
 }
 
+img{
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
 
+.h2info{
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.h3info{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.spaninfo{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FF0000;
+  font-weight: 700;
+}
+
+.celular{
+  height: 154px ;
+  width: 154px;
+  margin-right: 300px;
+}
+  /* div.parent{
+    text-align: center;
+  } */
