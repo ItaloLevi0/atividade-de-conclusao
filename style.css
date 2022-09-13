@@ -257,10 +257,13 @@ img{
   margin-right: 300px;
 }
 
+/* Seção 3 */
+
 .comida1{
   display: flex;
   height: 645px;
   align-items: center ;
+  margin-top: -100px;
   
 }
 
@@ -268,13 +271,14 @@ section.comida1 > div>  span.grande{
 font-size: 40px ;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 700;
+color: #191919;
 
 }
 
 section.comida1 > div>  span{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
-  ;
+  
 }
 
 div.texto{
@@ -288,11 +292,70 @@ div.imagem{
   float: right;
  justify-content: center;
  align-items: center;
- size: 712 513;
+ size: 712px 513px;
 }
 
 button.getapp{
    background-color: #FF0000;
+   border-radius: 30px;
+   border: 0;
+   color: #FFFFFF;
+   height: 40px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   
 }
 
+/* Seção 4 */
+
+.comida2{
+  align-items: center;
+  height: 645px;
+  background-color: #FFF0ED;
+  margin-top: -150px;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+}
+
+section.comida2 > div>  span.grande{
+  font-size: 40px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #191919;
   
+  }
+
+  section.comida2 > div>  span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+  }
+
+
+div.imagem-esquerda{
+  float: left;
+ justify-content: center;
+ align-items: center;
+ size: 712px 513px;
+}
+
+div.texto-direita{
+  width: 21%;
+  margin-left: 200px;
+  vertical-align: middle;
+  float: right;
+  align-items: center;
+}
+  
+button.getapp{
+  background-color: #FF0000;
+  border-radius: 30px;
+  border: 0;
+  color: #FFFFFF;
+  height: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  
+}
+
